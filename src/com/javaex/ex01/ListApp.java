@@ -20,6 +20,13 @@ public class ListApp {
 		Rectangle r100 = rList.get(0);
 		r100.draw();
 		
+		for(int i=0; i<rList.size(); i++) {
+			/*Rectangle r = rList.get(i);
+			r.draw();
+			*/
+			rList.get(i).draw();
+		}
+		
 		System.out.println(rList.size());
 		
 		
