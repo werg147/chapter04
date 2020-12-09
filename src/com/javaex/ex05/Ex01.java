@@ -39,6 +39,8 @@ public class Ex01 {
 			System.out.println(i);
 		}
 		
+		System.out.println("삭제3");
+		
 		//삭제
 		iSet.remove(3);
 		for(Integer i : iSet) {
