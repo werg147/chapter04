@@ -2,6 +2,7 @@ package com.javaex.ex04;
 
 import java.util.ArrayList; //컨트롤+쉬프트+o
 import java.util.LinkedList;
+import java.util.List;
 
 public class ListApp {
 	
@@ -9,7 +10,10 @@ public class ListApp {
 		
 		//ArrayList 사용 + Rectangle
 		
-		ArrayList<Rectangle> rList = new ArrayList<Rectangle>();
+		//ArrayList<Rectangle> rList = new ArrayList<Rectangle>();
+		//LinkedList<Rectangle> rList = new LinkedList<Rectangle>();
+		
+		List<Rectangle> rList = new ArrayList<Rectangle>();
 		
 		Rectangle r01 = new Rectangle(3,3);
 		Rectangle r02 = new Rectangle(4,4);
@@ -35,6 +39,10 @@ public class ListApp {
 		for(int i=0; i<rList.size(); i++) {
 			(rList.get(i)).draw();
 		}
+		
+		System.out.println("toString====================================");
+		System.out.println(rList.toString());
+		
 		
 		System.out.println("============================================");
 		
@@ -69,6 +77,10 @@ public class ListApp {
 		for(int i=0; i<cList.size(); i++) {
 			(cList.get(i)).draw();
 		}
+		
+		System.out.println("============================================");
+		
+		cList.toString();
 	
 		
 		
